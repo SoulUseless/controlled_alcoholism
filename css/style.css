@@ -1,7 +1,45 @@
-.header
-{
- background-image: url("../images/background.jpg");
- background-color: #cccccc;
- background-size: cover;
- background-position: center;
+@import url('https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Patua+One&family=Raleway&family=Roboto&display=swap');
+
+* {
+	box-sizing: border-box;
+	font-family: Roboto;
+}
+
+.main-title {
+	font-family: Gloria Hallelujah;
+	color: white;
+}
+
+.nav a{
+	color: white;
+	transition: color 200ms ease-in-out; 
+	padding: 0 20px;
+}
+	.nav a:hover {
+		color: #849974; 
+		text-decoration: none;
+	}
+
+.main-header{
+	background-color: rgba(255, 251, 255, 0.6);
+	background-image: url("../images/background.jpg");
+	background-size: cover;
+	background-position: center;
+	background-blend-mode: multiply;
+}
+
+.section-title{
+	font-family: Patua One;
+}
+
+.index-main {
+	padding-right: 30px;
+}
+
+.index-sidebar {
+	padding-left: 50px;
+	font-size: 0.8em;
+}
+body {
+	background-color: rgba(255, 251, 255);
 }
