@@ -58,9 +58,10 @@
 .article-card-box {
 	position: relative;
 	bottom: 50px;
-	padding-bottom: 0.25px;
+	padding-bottom: 1px;
 	padding-top: 5px;
 	background-color: rgba(255,251,255,0.65);
+	font-size: calc(12px + 1vw);
 }
 
 	.article-card-box a{
@@ -73,6 +74,11 @@
 		text-decoration: none;
 	}
 
+.image-caption {
+	font-size: 1vw;
+	text-align:center;
+	font-style: italic;
+}
 body {
 	background-color: rgba(255, 251, 255);
 }
