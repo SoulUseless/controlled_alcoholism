@@ -8,8 +8,16 @@
 .main-title {
 	font-family: Gloria Hallelujah;
 	color: white;
+	padding-top: 40px;
+	padding-bottom: 20px;
 }
 
+.nav {
+	background-color:rgba(0, 0, 0, 0.4);
+	padding-left:70px;
+	padding-top:5px;
+	padding-bottom: 5px
+}
 .nav a{
 	color: white;
 	transition: color 200ms ease-in-out; 
@@ -37,9 +45,34 @@
 }
 
 .index-sidebar {
-	padding-left: 50px;
+	padding-top: 10px;
+	padding-left: 75px;
 	font-size: 0.8em;
 }
+
+.article-card{
+	text-align: center;
+	vertical-align: middle;
+}
+
+.article-card-box {
+	position: relative;
+	bottom: 50px;
+	padding-bottom: 0.25px;
+	padding-top: 5px;
+	background-color: rgba(255,251,255,0.65);
+}
+
+	.article-card-box a{
+	color: black;
+	transition: color 200ms ease-in-out; 
+	padding: 0 20px;
+	}
+	.article-card-box a:hover {
+		color: rgba(0,0,0,0.65); 
+		text-decoration: none;
+	}
+
 body {
 	background-color: rgba(255, 251, 255);
 }
