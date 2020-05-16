@@ -55,30 +55,59 @@
 	vertical-align: middle;
 }
 
+	.article-card:hover .article-image{
+		opacity: 0.5;
+	}
+
+.article-image {
+	opacity: 1;
+	display: block;
+	width: 100%;
+	height: auto;
+	transition: .5s ease;
+	backface-visibility: hidden;
+}
+
 .article-card-box {
-	position: relative;
-	bottom: 50px;
+	position: absolute;
+	top: 80%;
+  	left: 50%;
+  	width: 100%;
+  	transform: translate(-50%, -50%);
+  	text-align: center;
 	padding-bottom: 1px;
 	padding-top: 5px;
 	background-color: rgba(255,251,255,0.65);
-	font-size: calc(12px + 1vw);
 }
 
-	.article-card-box a{
+	.article-card-box a {
 	color: black;
 	transition: color 200ms ease-in-out; 
-	padding: 0 20px;
 	}
+
 	.article-card-box a:hover {
 		color: rgba(0,0,0,0.65); 
 		text-decoration: none;
 	}
 
 .image-caption {
-	font-size: 1vw;
 	text-align:center;
 	font-style: italic;
+	padding-bottom: 10px;
 }
+
+	.image-caption .src {
+		font-size: 0.7vw;
+		padding: 0px;
+		margin:0px;
+	}
+
+	.image-caption .text {
+		font-size: 1vw;
+		padding: 0px;
+		margin:0px;
+	}
+
 body {
 	background-color: rgba(255, 251, 255);
 }
